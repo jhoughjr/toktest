@@ -20,15 +20,18 @@ struct ContentView: View
 {
   var body: some View
   {
-    Color.gray
-    VStack
+  VStack(alignment:.leading) {
+    Color.black
+    HStack(alignment:.top)
     {
-       Text("Hello World")
+       Text("Hellgo World")
          .font(.title)
          .fontWeight(.bold)
-         .foregroundStyle(.dark)
-         .frame(alignment: .center)
+         .foregroundStyle(.white)
          .padding()
+      Spacer()        
     }
+    Spacer()
+  }
   }
 }
