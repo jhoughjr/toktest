@@ -20,8 +20,7 @@ struct ContentView: View
 {
   var body: some View
   {
-    Color.purple
-
+    Color.gray
     VStack
     {
        Text("Hello World")
